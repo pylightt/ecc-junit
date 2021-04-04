@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: xyz.merccurion.GetSetInputTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in xyz.merccurion.GetSetInputTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 s - in xyz.merccurion.GetSetInputTest

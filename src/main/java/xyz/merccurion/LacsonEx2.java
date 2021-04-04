@@ -1,7 +1,6 @@
 package xyz.merccurion;
 
 import java.io.*;
-import java.util.InputMismatchException;
 
 public class LacsonEx2 {
 	public static void main(String[] args) throws FileNotFoundException {
@@ -80,12 +79,12 @@ public class LacsonEx2 {
 		}
 		}
 		while (menu.equals("reset"));
-		//} finally {}
-		
 		} catch (NullPointerException e) {
-			System.out.println("Invalid. Input must not be null.");
+			System.out.println("Invalid. Input must not be null.\n");
+			e.printStackTrace();
 		} catch (NumberFormatException e) {
-			System.out.println("Invalid. Input must be an integer.");
+			System.out.println("Invalid. Input must be an integer.\n");
+			e.printStackTrace();
 		} 
 	}
 }
